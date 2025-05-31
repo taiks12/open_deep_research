@@ -40,6 +40,8 @@ function App() {
     onThreadId: setThreadId,
   });
 
+   console.log("LANGGRAPH STREAM STATE:", state); // この行を追加
+
   return (
     <main className="grid min-h-screen grid-rows-[auto,1fr,auto]">
       <div className="sticky top-0 grid min-h-[68px] grid-cols-[1fr,auto] items-center gap-4 bg-background p-4">
