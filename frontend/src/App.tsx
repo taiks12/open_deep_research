@@ -34,6 +34,7 @@ function App() {
     { InterruptType: string }
   >({
     apiUrl: "http://localhost:2024",
+    apiKey: undefined, 
     assistantId: "open_deep_research",
 
     threadId,
